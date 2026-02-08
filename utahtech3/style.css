@@ -4,9 +4,7 @@ header { background-color: #0D3B66 ;
     background-attachment: fixed; font-family: Georgia ;
      color:#FFFFFF ; padding: 0.5rem 1rem ; }
 header h1 
-{ margin: 0 ; font-size: 2em;}
-
-h1 { line-height: 140% ; padding-left: 1em ;
+{ margin: 0 ; font-size: 2em; line-height: 140% ; padding-left: 1em ;
      background-image: url(utahtechlogo.svg) ;
      background-position: right ;
      background-repeat: no-repeat ;
