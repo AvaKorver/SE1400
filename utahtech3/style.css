@@ -11,6 +11,7 @@ h1 { line-height: 140% ; padding-left: 1em ;
      margin-bottom: 0 ;   }
 nav { font-weight: bold ; background-color: #F3F3F3 ;
      padding: 0.5rem 0.5rem 0.5rem 2rem }
+nav a { text-decoration: none ; }
 h2 { color: #424242 ; font-family: Georgia }
 h3 { color: #003058}
 main { padding-left: 2rem ; padding-right: 2rem;}
