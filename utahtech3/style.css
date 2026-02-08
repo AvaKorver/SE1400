@@ -2,7 +2,7 @@ body { background-color: #FFFFFF ; font-family: Arial, Helvetica, sans-serif;
     color:#666666 ; }
 header { background-color: #0D3B66 ;
     background-attachment: fixed; font-family: Georgia ;
-     color:#FFFFFF }
+     color:#FFFFFF ; padding: 0.5rem 1rem ; }
 header h1 
 { margin: 0 ; font-size: 2em;}
 
@@ -31,7 +31,7 @@ footer { font-size: .70rem ; text-align: center ; padding: 1rem ; }
 header {
   background-color: #003058 ;
   color: #FFFFFF ;
-  padding: 0.5rem ;
+  padding: 1rem ;
 }
 
 h1 {
