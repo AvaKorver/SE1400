@@ -1,14 +1,43 @@
-body { background-color: #FFFFFF ; font-family: Arial, Helvetica, sans-serif; ; color:#666666 ; }
+body { background-color: #FFFFFF ; font-family: Arial, Helvetica, sans-serif;
+    color:#666666 ; }
 header { background: linear-gradient(to bottom, #eeeeee, #ffffff);
-    background-attachment: fixed; font-family: Georgia ; color:#FFFFFF }
-h1 { line-height: 140% ; padding-left: 1em ; background-image: url(utahtechlogo.svg) ;
+    background-attachment: fixed; font-family: Georgia ;
+     color:#FFFFFF }
+h1 { line-height: 140% ; padding-left: 1em ;
+     background-image: url(utahtechlogo.svg) ;
      background-position: right ;
      background-repeat: no-repeat ;
      background-origin: content-box ;
      margin-bottom: 0 ;   }
-nav { font-weight: bold ; background-color: #F3F3F3 }
+nav { font-weight: bold ; background-color: #F3F3F3 ;
+     padding: 0.5rem 0.5rem 0.5rem 2rem }
 h2 { color: #424242 ; font-family: Georgia }
+h3 { color: #003058}
+main { padding-left: 2rem ; padding-right: 2rem;}
 dt { color: #003058 ; font-weight: bold }
 .ut { color: #BA1C21 ; font-weight: bold }
-footer { font-size: .70rem ; text-align: center }
-#wrapper { width: 80% ; margin-right: auto ; margin-left: auto; background-color: #ffffff ; min-width: 960px ; max-width: 2048px ; box-shadow: 0px 3px 3px rgba(66, 66, 66, 0.3); }
+footer { font-size: .70rem ; text-align: center ; padding: 1rem ; }
+#wrapper { width: 80% ;
+     margin-right: auto ;
+      margin-left: auto;
+       background-color: #ffffff ;
+        min-width: 960px ;
+         max-width: 2048px ;
+          box-shadow: 0px 3px 3px rgba(66, 66, 66, 0.3); }
+#homehero { height: 300px ;
+    background-image: url('homehero.jpg') ;
+    background-size: cover ;
+    background-repeat: no-repeat ; 
+    background-position: center ; }
+
+#studenthero { height: 300px ;
+    background-image: url('homehero.jpg') ;
+    background-size: cover ;
+    background-repeat: no-repeat ; 
+    background-position: center ; }
+
+#facultyhero { height: 300px ;
+    background-image: url('homehero.jpg') ;
+    background-size: cover ;
+    background-repeat: no-repeat ; 
+    background-position: center ; }
