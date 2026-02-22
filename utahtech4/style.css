@@ -25,8 +25,28 @@ header h1
 nav { font-weight: bold ; background-color: #F3F3F3 ;
      padding: 0.5rem 0.5rem 0.5rem 2rem; 
     grid-row: 2 / 3;
-grid-column: 2 / -2; }
-nav a { text-decoration: none ; color: blue ; }
+    grid-column: 2 / -2;
+    background-color: #424242;
+    margin: 0;
+padding: 0;
+position: sticky;
+top: 0; }
+nav ul {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-flow: row nowrap;
+   list-style-type: none;}
+nav ul li {
+   width: 100%;}
+nav a { text-decoration: none ; color: blue ;
+    color: #FFFFFF;
+   padding: 1rem 0rem;
+   display: block;
+   text-align: center;
+   text-decoration: none; }
+nav a:hover {
+   background-color: #BA1C21;}
 h2 { color: #424242 ; font-family: Georgia }
 h3 { color: #003058}
 main { padding-left: 2rem ; padding-right: 2rem;
