@@ -64,11 +64,7 @@ footer { font-size: .70rem ; text-align: center ; padding: 1rem ;
    grid-template-columns: minmax(0px, 1fr)
     repeat(6, minmax(0, 175px))
      minmax(0px, 1fr);     }
-header {
-  background-color: #003058 ;
-  color: #FFFFFF ;
-  padding: 0.5rem ;
-}
+
 
 h1 {
   background-image: url('utahtechlogo.svg') ;
