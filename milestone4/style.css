@@ -6,7 +6,9 @@
 
 body {
     margin: 0;
-    background-image: url('bow background.jpg');
+    background-image: 
+    url('lace.jpg'),
+    url('bow background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
