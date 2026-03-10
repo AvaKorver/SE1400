@@ -23,7 +23,7 @@ body {
     background-size: cover; 
     background-position: center top;
     background-repeat: no-repeat;
-    background-attachment:fixed; 
+    background-attachment: scroll; 
     min-height: 100vh;
     width: 100%;
     padding: 30px 0;
@@ -36,13 +36,33 @@ header {
     height: 120px;
 }
 
-.nav-tabs { /* Consolidate into one rule */
+main.art-content {
+    grid-column: 2 / 8;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.main-title {
+    font: 1em monospace;
+    font-size: 48px; 
+    font-weight: thin;
+    color: #282019; 
+    text-align: center;
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.5); 
+}
+
+.nav-tabs {
     list-style: none;
     display: flex;
-    justify-content: center; /* Add this to center the nav */
+    justify-content: center;
     gap: 20px;
     font-family: monospace;
     font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-tabs li {
@@ -54,37 +74,33 @@ header {
     color: #53412f;
 }
 
-
-
-.main-title {
-  font: 1em monospace;
-    font-size: 48px; 
-    font-weight: thin;
-    color: #282019; 
-    text-align: center;
-    margin: 0 0 20px 0;
-    text-shadow: 2px 2px 4px rgba(255,255,255,0.5); 
-}
-
-
-footer {
-    grid-column: 1 / 9;
-    background-color: rgba(185, 154, 200, 0);
-    height: 100px;
-}
-text-image-group {
+.text-image-group {
     display: flex;
     gap: 20px;
     align-items: flex-start;
 }
 
 .text-image-group .text-block {
-    flex: 1; /* Takes up available space */
+    flex: 1;
+}
+
+.text-block {
+    padding: 25px 50px;
+    border-radius: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #1b150f;
 }
 
 .side-image {
-    width: 300px; /* Adjust width as needed */
+    width: 300px;
     height: auto;
-    flex-shrink: 0; /* Prevents image from shrinking */
+    flex-shrink: 0;
     border-radius: 8px;
+}
+
+footer {
+    grid-column: 1 / 9;
+    background-color: rgba(185, 154, 200, 0);
+    height: 100px;
 }
