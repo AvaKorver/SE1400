@@ -11,7 +11,7 @@ body {
     margin: 0;
     background-image: url('bow background.jpg'); 
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-attachment: fixed;
     font-family: Arial, sans-serif;
     position: relative;  
