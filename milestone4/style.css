@@ -45,13 +45,24 @@ main.art-content {
     padding: 40px 0;
 }
 
-.nav-tabs {
+.nav-tabs { /* Consolidate into one rule */
     list-style: none;
     display: flex;
-    text-align: center;
+    justify-content: center; /* Add this to center the nav */
+    gap: 20px;
     font-family: monospace;
     font-size: 16px;
 }
+
+.nav-tabs li {
+    display: inline;
+}
+
+.nav-tabs a {
+    text-decoration: none;
+    color: #53412f;
+}
+
 
 
 .main-title {
@@ -87,23 +98,6 @@ main.art-content {
     color: #1b150f;
 }
 
-
-.nav-tabs {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    font-family: monospace;
-    font-size: 16px;
-}
-
-.nav-tabs li {
-    display: inline;
-}
-
-.nav-tabs a {
-    text-decoration: none;
-    color: #53412f;
-}
 footer {
     grid-column: 1 / 9;
     background-color: rgba(185, 154, 200, 0);
