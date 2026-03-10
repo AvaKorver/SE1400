@@ -17,6 +17,11 @@ body {
     font-family: Arial, sans-serif;
     position: relative;  
     min-height: 100vh;
+    background-image: url('lace.jpg'), url('bow background.jpg'); /* Layer lace over bow */
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, fixed;
 }
 
 .lace-container {
