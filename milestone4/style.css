@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr) ;}
+body {
+  margin: 0;
+  background-image: url('bow\ background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+header {
+  grid-column: 1 / 9;
+  background-color: #B99AC8 ; height: 120px ;}
+.photos {
+  grid-column: 2 / 8;
+  background-color: #0B6A00;
+  height: 300px;}
+nav {
+  grid-column: 2 / 8;
+  background-color: #B99AC8;
+  height: 60px;}
+footer {
+  grid-column: 1 / 9;
+  background-color: #B99AC8;
+  height: 100px;}
