@@ -24,7 +24,7 @@ main.art-content {
     flex-direction: column;
     gap: 30px;
     padding: 40px 0;
-    margin-top: 75vh; /* Moves entire content down 3/4ths of page */
+    margin-top: 75vh; 
 }
 header {
     grid-column: 1 / 9;
