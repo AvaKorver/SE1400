@@ -18,14 +18,22 @@ body {
     min-height: 100vh;
 }
 
+
+
 main.art-content {
     grid-column: 2 / 8;
     display: flex;
     flex-direction: column;
     gap: 30px;
     padding: 40px 0;
-    margin-top: 75vh; 
+    margin-top: 70vh; 
 }
+
+.text-image-group:first-of-type {
+    margin-top: 30vh; 
+}
+
+
 header {
     grid-column: 1 / 9;
     background-color: rgba(185, 154, 200, 0);
@@ -62,24 +70,33 @@ header {
     color: #53412f;
 }
 
+
 .text-image-group {
     display: flex;
     gap: 20px;
     align-items: flex-start;
     justify-content: center; 
     padding: 20px;
-    margin-top: 33vh;}
+}
+
+.text-image-group.reverse {
+    flex-direction: row-reverse;
+}
+
 .text-image-group .text-block {
     flex: 1;
     max-width: 400px;
 }
+
 .text-block {
     padding: 25px 50px;
     border-radius: 10px;
     line-height: 1.6;
     font-size: 16px;
     color: #1b150f;
+    background-color: rgba(255, 255, 255, 0.8); 
 }
+
 
 .side-image {
     width: 300px;
