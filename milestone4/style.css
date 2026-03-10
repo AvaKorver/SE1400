@@ -38,29 +38,20 @@ header {
     background-color: rgba(185, 154, 200, 0);
     height: 120px;
 }
-.nav-tabs {
-    list-style: none;
-    text-align: center;
-    display: flex;
-    gap: 20px;
-    font-family: monospace;
-    font-size: 16px;
-}
-
-.nav-tabs li {
-    display: inline;
-}
-
-.nav-tabs a {
-    text-decoration: none;
-    color: #53412f;
-}
-main.art {
+main.art-content { 
     grid-column: 2 / 8;
     display: flex;
     flex-direction: column;
     gap: 30px;
     padding: 40px 0;
+}
+
+.nav-tabs {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 16px;
 }
 
 
