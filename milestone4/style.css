@@ -70,12 +70,12 @@ main.art {
 
 nav {
     grid-column: 2 / 8;
-    background-color: rgba(185, 154, 200, 0.8);
+    background-color: rgba(185, 154, 200, 0);
     height: 60px;
 }
 
 footer {
     grid-column: 1 / 9;
-    background-color: rgba(185, 154, 200, 0.8);
+    background-color: rgba(185, 154, 200, 0);
     height: 100px;
 }
