@@ -30,19 +30,10 @@ body {
     box-sizing: border-box;
 }
 
-
-
 header {
     grid-column: 1 / 9;
     background-color: rgba(185, 154, 200, 0);
     height: 120px;
-}
-main.art-content { 
-    grid-column: 2 / 8;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding: 40px 0;
 }
 
 .nav-tabs { /* Consolidate into one rule */
@@ -76,30 +67,24 @@ main.art-content {
 }
 
 
-.art-piece-1{
-    width: 100%;
-    margin: 20px 0;
-    background-color: rgba(255,255,255,0.3);
-    padding: 10px;
-    border-radius: 8px;}
-
-.art-piece-2 {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 4px;
-}
-
-.text-block {
-    padding: 25px;
-    border-radius: 10px;
-    line-height: 1.6;
-    font-size: 16px;
-    color: #1b150f;
-}
-
 footer {
     grid-column: 1 / 9;
     background-color: rgba(185, 154, 200, 0);
     height: 100px;
+}
+text-image-group {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.text-image-group .text-block {
+    flex: 1; /* Takes up available space */
+}
+
+.side-image {
+    width: 300px; /* Adjust width as needed */
+    height: auto;
+    flex-shrink: 0; /* Prevents image from shrinking */
+    border-radius: 8px;
 }
