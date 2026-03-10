@@ -92,13 +92,22 @@ main.art {
 }
 
 
-
-nav {
-    grid-column: 2 / 8;
-    background-color: rgba(185, 154, 200, 0);
-    height: 60px;
+.nav-tabs {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: monospace;
+    font-size: 16px;
 }
 
+.nav-tabs li {
+    display: inline;
+}
+
+.nav-tabs a {
+    text-decoration: none;
+    color: #53412f; /* Adjust color as needed */
+}
 footer {
     grid-column: 1 / 9;
     background-color: rgba(185, 154, 200, 0);
