@@ -10,9 +10,8 @@
 body {
     margin: 0;
     background-image: url('background.jpg'); 
-    background-size: cover; /* Add this to prevent zooming */
-    background-position: top center; /* Change from center to top center to stick to the top */
-    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: top center; 
     background-attachment: fixed;
     font-family: Arial, sans-serif;
     position: relative;  
