@@ -43,7 +43,7 @@ body {
 
 header {
     grid-column: 1 / 9;
-    background-color: rgba(185, 154, 200, 0.8);
+    background-color: rgba(185, 154, 200, 0);
     height: 120px;
 }
 
