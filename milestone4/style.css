@@ -78,11 +78,13 @@ main.art-content {
     display: flex;
     gap: 20px;
     align-items: flex-start;
+    justify-content: center; 
+    padding: 20px;
 }
 
 .text-image-group .text-block {
     flex: 1;
-}
+    max-width: 400px;
 
 .text-block {
     padding: 25px 50px;
@@ -90,13 +92,14 @@ main.art-content {
     line-height: 1.6;
     font-size: 16px;
     color: #1b150f;
-}
+    background-color: rgba(255, 255, 255, 0.8); 
 
 .side-image {
     width: 300px;
     height: auto;
     flex-shrink: 0;
     border-radius: 8px;
+    object-fit: cover; 
 }
 
 footer {
