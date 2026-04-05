@@ -104,6 +104,10 @@ footer {
 .side-image {
   max-width: 100%;
   height: auto;}
+  body {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;}
   .grid {
     grid-template-columns: 1fr minmax(0, 768px) 1fr;}}
     
@@ -111,4 +115,8 @@ footer {
 .side-image {
   max-width: 100%;
   height: auto;}
+  body {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;}
   header,nav,.photos,footer {grid-column: 1 / -1;}}
