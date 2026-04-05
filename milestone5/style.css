@@ -4,8 +4,7 @@
     gap: 20px;
     position: relative;
     z-index: 2; 
-    min-height: 100vh;
-}
+    min-height: 100vh;}
 
 body {
     margin: 0;
@@ -15,8 +14,7 @@ body {
     background-attachment: scroll;
     font-family: Arial, sans-serif;
     position: relative;  
-    min-height: 100vh;
-}
+    min-height: 100vh;}
 
 
 
@@ -26,19 +24,16 @@ main.art-content {
     flex-direction: column;
     gap: 30px;
     padding: 40px 0;
-    margin-top: 30vh; 
-}
+    margin-top: 30vh; }
 
 .text-image-group:first-of-type {
-    margin-top: 30vh; 
-}
+    margin-top: 30vh; }
 
 
 header {
     grid-column: 1 / 9;
     background-color: rgba(185, 154, 200, 0);
-    height: 120px;
-}
+    height: 120px;}
 
 .main-title {
     font: 1em monospace;
@@ -47,9 +42,12 @@ header {
     color: #282019; 
     text-align: center;
     margin: 0 0 20px 0;
-    text-shadow: 2px 2px 4px rgba(255,255,255,0.5); 
-}
-
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.5); }
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;}
 .nav-tabs {
     list-style: none;
     display: flex;
@@ -58,17 +56,14 @@ header {
     font-family: monospace;
     font-size: 30px;
     margin: 0;
-    padding: 0;
-}
+    padding: 0;}
 
 .nav-tabs li {
-    display: inline;
-}
+    display: inline;}
 
 .nav-tabs a {
     text-decoration: none;
-    color: #53412f;
-}
+    color: #53412f;}
 
 
 .text-image-group {
@@ -76,17 +71,14 @@ header {
     gap: 20px;
     align-items: flex-start;
     justify-content: center; 
-    padding: 20px;
-}
+    padding: 20px;}
 
 .text-image-group.reverse {
-    flex-direction: row-reverse;
-}
+    flex-direction: row-reverse;}
 
 .text-image-group .text-block {
     flex: 1;
-    max-width: 400px;
-}
+    max-width: 400px;}
 
 .text-block {
     padding: 25px 50px;
@@ -94,8 +86,7 @@ header {
     line-height: 1.6;
     font-size: 16px;
     color: #1b150f;
-    background-color: rgba(255, 255, 255, 0.8); 
-}
+    background-color: rgba(255, 255, 255, 0.8); }
 
 
 .side-image {
@@ -103,11 +94,21 @@ header {
     height: auto;
     flex-shrink: 0;
     border-radius: 8px;
-    object-fit: cover; 
-}
+    object-fit: cover; }
 
 footer {
     grid-column: 1 / 9;
     background-color: rgba(185, 154, 200, 0);
-    height: 100px;
-}
+    height: 100px;}
+@media (max-width: 992px) {
+.side-image {
+  max-width: 100%;
+  height: auto;}
+  .grid {
+    grid-template-columns: 1fr minmax(0, 768px) 1fr;}}
+    
+@media (max-width: 768px) {
+.side-image {
+  max-width: 100%;
+  height: auto;}
+  header,nav,.photos,footer {grid-column: 1 / -1;}}
