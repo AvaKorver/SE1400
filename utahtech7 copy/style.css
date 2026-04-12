@@ -44,8 +44,7 @@ nav a { text-decoration: none ;
    padding: 1rem 0rem;
    display: block;
    text-align: center;
-   text-decoration: none; 
-  transition: background-color 0.5s ease-out;}
+   text-decoration: none; }
 nav a:hover {
    background-color: #BA1C21;}
 header a:visited {
@@ -153,12 +152,7 @@ main img {
   float: none;
   width: 100%;
   height: auto;
-  padding-left: 0px;}
-video {
-  float: none;
-  margin: 0;
-  width: 100%;
-  height: auto;}}
+  padding-left: 0px;}}
 
 
 @media only screen and (max-width: 600px) {
@@ -222,6 +216,3 @@ table {
   text-align: left;}
   tr:nth-of-type(even) {
   background-color: #F3F3F3;}
-  video {
- float: right;
-  margin-left: 2em;}
