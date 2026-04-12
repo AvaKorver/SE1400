@@ -128,7 +128,9 @@ img[src*="facultyhero"] { display: none !important; }
 
   #wrapper {
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr); }}
-
+video {
+  float: right;
+  padding-left: 2rem;}
     
 @media only screen and (max-width: 900px) {
 nav {
@@ -222,6 +224,3 @@ table {
   text-align: left;}
   tr:nth-of-type(even) {
   background-color: #F3F3F3;}
-  video {
- float: right;
-  margin-left: 2em;}
