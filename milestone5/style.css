@@ -4,7 +4,9 @@
     gap: 20px;
     position: relative;
     z-index: 2; 
-    min-height: 100vh;}
+    min-height: 100vh;
+    top: 60vh;
+}
 
 body {
     margin: 0;
@@ -23,7 +25,7 @@ body::before {
     left: 0;
     right: 0;
     height: 60vh;
-    background: linear-gradient(to bottom, transparent 70%, rgba(255,255,255,0.5) 100%), url('Painting-Main.jpeg');
+    background: linear-gradient(to bottom, transparent 85.7%, rgba(255,255,255,0.2) 100%), url('Painting-Main.jpeg');
     background-size: cover;
     background-position: center top;
     pointer-events: none;
