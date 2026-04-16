@@ -27,6 +27,7 @@ body::before {
     background-size: cover;
     background-position: center top;
     pointer-events: none;
+    z-index: 3;
 }
 
 
