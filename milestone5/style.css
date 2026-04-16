@@ -32,6 +32,20 @@ body::before {
     z-index: 3;
 }
 
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60vh;
+    background: linear-gradient(to bottom, transparent 85.7%, rgba(255,255,255,0.2) 100%), url('Painting-Main.jpeg');
+    background-size: cover;
+    background-position: center top;
+    pointer-events: none;
+    z-index: 3;
+}
+
 
 
 main.art-content {
@@ -40,7 +54,7 @@ main.art-content {
     flex-direction: column;
     gap: 30px;
     padding: 40px 0;
-    margin-top: 30vh; }
+    margin-top: 0; }
 
 .text-image-group:first-of-type {
     margin-top: 30vh; }
@@ -81,7 +95,7 @@ nav {
     text-decoration: none;
     color: #53412f;
     background-image: url('rippedpaper.webp');
-    background-size: 80px 45px;
+    background-size: 133px 75px;
     background-repeat: no-repeat;
     background-position: center;
     padding: 10px 20px;}
