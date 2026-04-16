@@ -16,6 +16,19 @@ body {
     position: relative;  
     min-height: 100vh;}
 
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60vh;
+    background: linear-gradient(to bottom, transparent 70%, rgba(255,255,255,0.5) 100%), url('Painting-Main.jpeg');
+    background-size: cover;
+    background-position: center top;
+    pointer-events: none;
+}
+
 
 
 main.art-content {
@@ -65,7 +78,7 @@ nav {
     text-decoration: none;
     color: #53412f;
     background-image: url('rippedpaper.webp');
-    background-size: 30px 30px;
+    background-size: 80px 45px;
     background-repeat: no-repeat;
     background-position: center;
     padding: 10px 20px;}
