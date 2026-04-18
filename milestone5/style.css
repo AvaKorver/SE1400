@@ -222,3 +222,7 @@ footer {
     text-align: center;
     color: #1b150f;
 }
+
+.gallery-page body::before {
+    display: none;
+}
