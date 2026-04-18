@@ -62,17 +62,19 @@ header {
     margin: 0 0 20px 0;
     text-shadow: 2px 2px 4px rgba(255,255,255,0.5); }
 nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 4;
+  z-index: 5;
   display: flex;
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
   background: white;
-  padding: 10px 0;}
+  padding: 10px 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;}
 .nav-tabs {
     list-style: none;
     display: flex;
