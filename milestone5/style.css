@@ -104,34 +104,6 @@ nav {
 }
 
 
-.text-image-group {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
-    justify-content: center; 
-    padding: 20px;}
-
-.text-image-group.reverse {
-    flex-direction: row-reverse;}
-
-.text-image-group .text-block {
-    flex: 1;
-    max-width: 400px;}
-
-.text-block {
-    padding: 25px 50px;
-    border-radius: 10px;
-    line-height: 1.6;
-    font-size: 16px;
-    color: #1b150f; }
-
-
-.side-image {
-    width: 300px;
-    height: auto;
-    flex-shrink: 0;
-    border-radius: 8px;
-    object-fit: cover; }
 
 footer {
     grid-column: 1 / 9;
