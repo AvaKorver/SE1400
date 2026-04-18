@@ -258,3 +258,13 @@ footer {
 .gallery-content nav:not(.gallery-filter) .nav-tabs a:hover {
     background: lightgrey;
 }
+.main-description {
+    grid-column: 1 / 9;
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #1b150f;
+}
