@@ -37,8 +37,8 @@ body::before {
 header {
     grid-column: 1 / 9;
     background-color: rgba(185, 154, 200, 0);
-    height: auto;
-    padding-top: 80px;}
+    height: 120px;}
+
 .main-title {
     font: 1em monospace;
     font-size: 70px; 
