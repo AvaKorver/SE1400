@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery | Ava's Art Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="grid">
+        <header></header>
+        <main class="gallery-content">
+            <h1 class="main-title">Gallery</h1>
+            <nav class="gallery-filter">
+                <button class="gallery-tab active" data-year="2019">2019</button>
+                <button class="gallery-tab" data-year="2021">2021</button>
+                <button class="gallery-tab" data-year="2022">2022</button>
+                <button class="gallery-tab" data-year="2023">2023</button>
+                <button class="gallery-tab" data-year="2024">2024</button>
+                <button class="gallery-tab" data-year="2025">2025</button>
+            </nav>
+
+            <section class="gallery-grid">
+                <article class="gallery-item" data-year="2019">
+                    <div class="gallery-thumb">2019 Photo 1</div>
+                    <div class="gallery-meta">
+                        <p>2019 work example</p>
+                    </div>
+                </article>
+                <article class="gallery-item" data-year="2019">
+                    <div class="gallery-thumb">2019 Photo 2</div>
+                    <div class="gallery-meta">
+                        <p>2019 work example</p>
+                    </div>
+                </article>
+                <article class="gallery-item" data-year="2021">
+                    <div class="gallery-thumb">2021 Photo 1</div>
+                    <div class="gallery-meta">
+                        <p>2021 work example</p>
+                    </div>
+                </article>
+                <article class="gallery-item" data-year="2021">
+                    <div class="gallery-thumb">2021 Photo 2</div>
+                    <div class="gallery-meta">
+                        <p>2021 work example</p>
+                    </div>
+                </article>
+                <article class="gallery-item" data-year="2022">
+                    <div class="gallery-thumb">2022 Photo 1</div>
+                    <div class="gallery-meta">
+                        <p>2022 work example</p>
+                    </div>
+                </article>
+                <article class="gallery-item" data-year="2022">
+                    <div class="gallery-thumb">2022 Photo 2</div>
+                    <div class="gallery-meta">
+                        <p>2022 work example</p>
+                    </div>
+                </article>
+                <article class="gallery-item" data-year="2023">
+                    <div class="gallery-thumb">2023 Photo 1</div>
+                    <div class="gallery-meta">
+                        <p>2023 work example</p>
+                    </div>
+                </article>
+                <article class="gallery-item" data-year="2023">
+                    <div class="gallery-thumb">2023 Photo 2</div>
+                    <div class="gallery-meta">
+                        <p>2023 work example</p>
+                    </div>
+                </article>
+                <article class="gallery-item" data-year="2024">
+                    <div class="gallery-thumb">2024 Photo 1</div>
+                    <div class="gallery-meta">
+                        <p>2024 work example</p>
+                    </div>
+                </article>
+                <article class="gallery-item" data-year="2024">
+                    <div class="gallery-thumb">2024 Photo 2</div>
+                    <div class="gallery-meta">
+                        <p>2024 work example</p>
+                    </div>
+                </article>
+                <article class="gallery-item" data-year="2025">
+                    <div class="gallery-thumb">2025 Photo 1</div>
+                    <div class="gallery-meta">
+                        <p>2025 work example</p>
+                    </div>
+                </article>
+                <article class="gallery-item" data-year="2025">
+                    <div class="gallery-thumb">2025 Photo 2</div>
+                    <div class="gallery-meta">
+                        <p>2025 work example</p>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer></footer>
+    </div>
+
+    <script>
+        const galleryTabs = document.querySelectorAll('.gallery-tab');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        function updateGallery(year) {
+            galleryItems.forEach(item => {
+                item.style.display = item.dataset.year === year ? 'block' : 'none';
+            });
+        }
+
+        galleryTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                galleryTabs.forEach(button => button.classList.remove('active'));
+                tab.classList.add('active');
+                updateGallery(tab.dataset.year);
+            });
+        });
+
+        updateGallery('2019');
+    </script>
+</body>
+</html>
