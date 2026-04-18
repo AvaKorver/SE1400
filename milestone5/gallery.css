@@ -120,7 +120,7 @@ footer {
 }
 
 .gallery-filter {
-    display: flex;
+    display: inside;
     justify-content: center;
     flex-wrap: wrap;
     gap: 100px;
