@@ -219,41 +219,6 @@ footer {
     color: #1b150f;
 }
 
-.gallery-page nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 20;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    background: #ffffff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    padding: 10px 0;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-}
-
-.gallery-page nav .nav-tabs {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    font-family: monospace;
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-}
-
-.gallery-page nav .nav-tabs a {
-    text-decoration: none;
-    color: #53412f;
-    padding: 10px 20px;
-    transition: background 0.3s;
-}
-
 .gallery-page nav .nav-tabs a:hover {
     background: lightgrey;
 }
