@@ -3,7 +3,7 @@
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
     gap: 20px;
     min-height: 100vh;
-    margin-top: 120vh;
+    margin-top: 0;
 }
 
 body {
@@ -18,17 +18,16 @@ body {
 
 body::before {
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 120vh;
+    height: 100vh;
     background: url('Painting-Main.jpeg');
     background-size: cover;
     background-position: center;
-    pointer-events: none;
     z-index: 0;
-    border-bottom: 3px solid black;
+    pointer-events: none;
 }
 
 header {
