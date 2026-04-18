@@ -222,3 +222,37 @@ footer {
 .gallery-page body::before {
     background: linear-gradient(to bottom, transparent 80%, rgba(255,255,255,0.5) 100%), url('gallery.cover.jpg');
 }
+
+.gallery-content nav:not(.gallery-filter) {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    background: transparent;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    z-index: auto;
+}
+
+.gallery-content nav:not(.gallery-filter) .nav-tabs {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: monospace;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-content nav:not(.gallery-filter) .nav-tabs a {
+    text-decoration: none;
+    color: #53412f;
+    padding: 10px 20px;
+    transition: background 0.3s;
+}
+
+.gallery-content nav:not(.gallery-filter) .nav-tabs a:hover {
+    background: lightgrey;
+}
