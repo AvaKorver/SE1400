@@ -25,7 +25,7 @@ body::before {
     left: 0;
     right: 0;
     height: 100vh;
-    background: url('gallery.cover.jpg');
+    background: url('gallery.cover.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     pointer-events: none;
@@ -53,17 +53,24 @@ header {
   left: 0;
   right: 0;
   z-index: 20;
-  list-style: none;
   display: flex;
   justify-content: center;
-  gap: 20px;
-
+  gap: 15px;
+  flex-wrap: wrap;
   background: #ffffff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-
   padding: 10px 0;
   border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid black;}
+.main-nav-tabs {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: monospace;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 .main-nav a {
