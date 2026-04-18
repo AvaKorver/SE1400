@@ -59,14 +59,7 @@ header {
   padding: 10px 0;
   border-top: 2px solid black;
   border-bottom: 2px solid black;}
-.main-nav-tabs {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    font-family: monospace;
-    font-size: 30px;
-    margin: 0;
-    padding: 0;}
+
 .main-nav-tabs li {
     display: inline;}
 
@@ -182,7 +175,7 @@ footer {
     background: linear-gradient(to bottom, transparent 80%, rgba(255,255,255,0.5) 100%), url('gallery.cover.jpg');
 }
 
-.gallery-content nav:not(.gallery-filter) {
+.gallery-content .main-nav:not(.gallery-filter) {
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -194,7 +187,7 @@ footer {
     z-index: auto;
 }
 
-.gallery-content nav:not(.gallery-filter) .nav-tabs {
+.gallery-content .main-nav:not(.gallery-filter) .main-nav-tabs {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -205,13 +198,16 @@ footer {
     padding: 0;
 }
 
-.gallery-content nav:not(.gallery-filter) .nav-tabs a {
+.gallery-content .main-nav:not(.gallery-filter) .main-nav-tabs a {
     text-decoration: none;
     color: #53412f;
     padding: 10px 20px;
     transition: background 0.3s;
 }
 
-.gallery-content nav:not(.gallery-filter) .nav-tabs a:hover {
+.gallery-content .main-nav:not(.gallery-filter) .main-nav-tabs a:hover {
     background: lightgrey;
+}
+.hidden {
+    display: none;
 }
