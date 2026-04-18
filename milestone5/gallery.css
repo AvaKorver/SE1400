@@ -25,7 +25,7 @@ body::before {
     left: 0;
     right: 0;
     height: 120vh;
-    background: url('gallery.cover.jpeg');
+    background: url('gallery.cover.jpg');
     background-size: cover;
     background-position: center;
     pointer-events: none;
@@ -53,7 +53,7 @@ header {
   left: 0;
   right: 0;
   z-index: 20;
-
+  list-style: none;
   display: flex;
   justify-content: center;
   gap: 20px;
