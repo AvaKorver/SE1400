@@ -18,17 +18,19 @@ body {
 
 body::before {
     content: '';
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     height: 120vh;
-    background: url('gallery.cover.jpg');
+    background: url('Painting-Main.jpeg');
     background-size: cover;
     background-position: center;
-    z-index: -1;
     pointer-events: none;
+    z-index: 0;
+    border-bottom: 3px solid black;
 }
+
 header {
     grid-column: 1 / 9;
     background-color: rgba(185, 154, 200, 0);
