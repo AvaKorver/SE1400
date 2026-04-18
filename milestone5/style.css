@@ -219,6 +219,6 @@ footer {
     color: #1b150f;
 }
 
-.gallery-page nav .nav-tabs a:hover {
-    background: lightgrey;
+.gallery-page body::before {
+    background: linear-gradient(to bottom, transparent 80%, rgba(255,255,255,0.5) 100%), url('gallery.cover.jpg');
 }
