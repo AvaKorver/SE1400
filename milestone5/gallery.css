@@ -2,8 +2,10 @@
     display: grid;
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
     gap: 20px;
+    position: relative;
+    z-index: 2; 
     min-height: 100vh;
-    margin-top: 0;
+    top: 100vh;
 }
 
 body {
@@ -18,17 +20,19 @@ body {
 
 body::before {
     content: '';
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    height: 100vh;
-    background: url('Painting-Main.jpeg');
+    height: 120vh;
+    background: url('gallery.cover.jpeg');
     background-size: cover;
     background-position: center;
-    z-index: 0;
     pointer-events: none;
+    z-index: 0;
+    border-bottom: 3px solid black;
 }
+
 
 header {
     grid-column: 1 / 9;
@@ -49,10 +53,10 @@ header {
   left: 0;
   right: 0;
   z-index: 20;
-
   display: flex;
   justify-content: center;
-
+  gap: 15px;
+  flex-wrap: wrap;
   background: #ffffff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   padding: 10px 0;
@@ -68,6 +72,7 @@ header {
     margin: 0;
     padding: 0;
 }
+
 .main-nav-tabs li {
     display: inline;}
 
@@ -75,12 +80,14 @@ header {
     text-decoration: none;
     color: #53412f;
     padding: 10px 20px;
-    transition: background 0.3s;}
+    transition: background 0.3s;
+}
 
 .main-nav-tabs a:hover {
     text-decoration: none;
     color: #53412f;
-    background: lightgrey;}
+    background: lightgrey;
+}
 
 
 
