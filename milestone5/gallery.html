@@ -224,6 +224,10 @@
         </main>
         <footer></footer>
     </div>
+    <div id="lightbox" class="lightbox hidden">
+  <span class="close-btn">&times;</span>
+  <img id="lightbox-img" src="" alt="Expanded view">
+</div>
 
     <script>
         const galleryTabs = document.querySelectorAll('.gallery-tab');
@@ -244,6 +248,31 @@ function updateGallery(year) {
         });
 
         updateGallery('2025');
-    </script>
+        
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const closeBtn = document.querySelector(".close-btn");
+
+// open lightbox when any image is clicked
+document.querySelectorAll(".gallery-thumb img").forEach(img => {
+  img.addEventListener("click", () => {
+    lightbox.classList.remove("hidden");
+    lightboxImg.src = img.src;
+  });
+});
+
+// close button
+closeBtn.addEventListener("click", () => {
+  lightbox.classList.add("hidden");
+});
+
+// click outside image closes it
+lightbox.addEventListener("click", (e) => {
+  if (e.target === lightbox) {
+    lightbox.classList.add("hidden");
+  }
+});
+</script>
+    
 </body>
 </html>
