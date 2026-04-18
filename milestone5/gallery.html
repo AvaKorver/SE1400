@@ -186,24 +186,13 @@
                         <p>2025 work example</p>
                     </div>
                 </article>
-                <article class="gallery-item" data-year="2025">
-                    <div class="gallery-thumb"><img src="IMG_9019.jpeg" alt="2025 artwork"></div>
-                    <div class="gallery-meta">
-                        <p>2025 work example</p>
-                    </div>
-                </article>
+
                                 <article class="gallery-item" data-year="2025">
                     <div class="gallery-thumb"><img src="IMG_9024.jpeg" alt="2025 artwork"></div>
                     <div class="gallery-meta">
                         <p>2025 work example</p>
                     </div>
-                </article>
-                                <article class="gallery-item" data-year="2025">
-                    <div class="gallery-thumb"><img src="IMG_8987.jpeg" alt="2025 artwork"></div>
-                    <div class="gallery-meta">
-                        <p>2025 work example</p>
-                    </div>
-                </article>
+
                                 <article class="gallery-item" data-year="2025">
                     <div class="gallery-thumb"><img src="IMG_9012.jpeg" alt="2025 artwork"></div>
                     <div class="gallery-meta">
@@ -248,30 +237,7 @@ function updateGallery(year) {
         });
 
         updateGallery('2025');
-        
-const lightbox = document.getElementById("lightbox");
-const lightboxImg = document.getElementById("lightbox-img");
-const closeBtn = document.querySelector(".close-btn");
-
-// open lightbox when any image is clicked
-document.querySelectorAll(".gallery-thumb img").forEach(img => {
-  img.addEventListener("click", () => {
-    lightbox.classList.remove("hidden");
-    lightboxImg.src = img.src;
-  });
-});
-
-// close button
-closeBtn.addEventListener("click", () => {
-  lightbox.classList.add("hidden");
-});
-
-// click outside image closes it
-lightbox.addEventListener("click", (e) => {
-  if (e.target === lightbox) {
-    lightbox.classList.add("hidden");
-  }
-});
+ 
 </script>
     
 </body>
