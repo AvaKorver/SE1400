@@ -32,6 +32,18 @@ body::before {
     z-index: 0;
     border-bottom: 3px solid black;
 }
+header {
+    grid-column: 1 / 9;
+    background-color: rgba(185, 154, 200, 0);
+    height: 120px;}
+.main-title {
+    font: 1em monospace;
+    font-size: 70px; 
+    font-weight: thin;
+    color: #282019; 
+    text-align: center;
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.5); }
 nav {
   position: fixed;
   top: 0;
