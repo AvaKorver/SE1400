@@ -163,7 +163,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 140px 20px 40px;
+    padding: 70px 20px 40px;
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -225,4 +225,8 @@ footer {
 
 .gallery-page body::before {
     display: none;
+}
+
+.gallery-page .grid {
+    top: 0;
 }
