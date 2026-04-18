@@ -264,7 +264,14 @@ footer {
     margin: 0 auto;
     max-width: 1200px;
     font-family: "Times New Roman", serif;
-    font-size: 18px;
+    font-size: 30px;
     line-height: 1.8;
     color: #1b150f;
+    justify-content: right;
+}
+.link-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
