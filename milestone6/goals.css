@@ -14,10 +14,53 @@ body {
     background-size: cover;
     background-position: center top; 
     background-attachment: scroll;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     position: relative;  
     min-height: 100vh;}
 
+.goals-container {
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.goals-title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.goals-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.goal-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.goal-card:hover {
+    transform: translateY(-5px);
+}
+
+.goal-card h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.goal-card p {
+    font-size: 15px;
+    line-height: 1.6;
+}
 
 header {
     grid-column: 1 / 9;
