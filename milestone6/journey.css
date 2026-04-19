@@ -115,7 +115,14 @@ nav {
     background: lightgrey;
 }
 
+.journey-item {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 25px;
+}
 
+.journey-item:last-child {
+    border-bottom: none;
+}
 
 footer {
     grid-column: 1 / 9;
