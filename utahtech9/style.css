@@ -228,10 +228,12 @@ table {
   tr:nth-of-type(even) {
   background-color: #F3F3F3;}
 #shophero {
+  height: 300px;
   background-image: url(images/shophero.jpg);
   background-size: cover;
-  background-repeat: no-repeat;}
-  
+  background-repeat: no-repeat;
+  background-position: center;
+}
 #shoppingcart {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
