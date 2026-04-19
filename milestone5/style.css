@@ -277,7 +277,7 @@ footer {
     margin-top: 20px;
     font-size: 20px;
 }
-.links-description li{
+.links-description {
     grid-column: 1 / 9;
     padding: 20px 20px 40px;
     margin: 0 auto;
@@ -288,9 +288,7 @@ footer {
     color: #1b150f;
     justify-content: center;
     list-style: none;
-}
-.links-description :hover{
-    color:#ffffff
+    underline: none;
 }
 
 .link-list {
