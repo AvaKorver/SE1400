@@ -13,6 +13,7 @@ body {
     background-image: url('background2.jpg'); 
     background-size: cover;
     background-position: center top; 
+    font-family: 'Times New Roman', Times, serif;
     background-attachment: scroll;
     font-family: Arial, sans-serif;
     position: relative;  

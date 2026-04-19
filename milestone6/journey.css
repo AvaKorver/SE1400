@@ -14,7 +14,7 @@ body {
     background-size: cover;
     background-position: center top; 
     background-attachment: scroll;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     position: relative; 
     background-color: #f2f2f2; 
     min-height: 100vh;}
