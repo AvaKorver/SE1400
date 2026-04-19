@@ -5,8 +5,7 @@
     position: relative;
     z-index: 2; 
     min-height: 100vh;
-    top: 100vh;
-}
+    top: 100vh;}
 
 body {
     margin: 0;
@@ -25,42 +24,35 @@ body {
     background: rgba(255, 255, 255, 0.85);
     border-radius: 20px;
     backdrop-filter: blur(8px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);}
 
 .goals-title {
     text-align: center;
     font-size: 50px;
-    margin-bottom: 40px;
-}
+    margin-bottom: 40px;}
 
 .goals-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 25px;
-}
+    gap: 25px;}
 
 .goal-card {
     background: white;
     border-radius: 15px;
     padding: 25px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-    transition: transform 0.2s ease;
-}
+    transition: transform 0.2s ease;}
 
 .goal-card:hover {
-    transform: translateY(-5px);
-}
+    transform: translateY(-5px);}
 
 .goal-card h2 {
     margin-top: 0;
-    font-size: 24px;
-}
+    font-size: 24px;}
 
 .goal-card p {
     font-size: 15px;
-    line-height: 1.6;
-}
+    line-height: 1.6;}
 
 header {
     grid-column: 1 / 9;
@@ -98,8 +90,7 @@ nav {
     font-family: monospace;
     font-size: 30px;
     margin: 0;
-    padding: 0;
-}
+    padding: 0;}
 
 .nav-tabs li {
     display: inline;}
@@ -114,8 +105,7 @@ nav {
 .nav-tabs a:hover {
     text-decoration: none;
     color: #53412f;
-    background: lightgrey;
-}
+    background: lightgrey}
 
 
 
