@@ -15,10 +15,49 @@ body {
     background-position: center top; 
     background-attachment: scroll;
     font-family: Arial, sans-serif;
-    position: relative;  
+    position: relative; 
+    background-color: #f2f2f2; 
     min-height: 100vh;}
+.journey-container {
+    max-width: 1000px;
+    margin: 60px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
 
+.journey-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 20px;
+}
 
+.journey-text {
+    width: 60%;
+}
+
+.journey-text h2 {
+    font-size: 36px;
+    margin: 0 0 10px;
+}
+
+.journey-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.journey-image {
+    width: 40%;
+}
+
+.journey-image img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
 header {
     grid-column: 1 / 9;
     background-color: rgba(185, 154, 200, 0);
