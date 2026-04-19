@@ -83,18 +83,10 @@ h1 {
     background-origin: content-box;
     padding-left: 1em;
     margin: 0;}
-h2 {
-    color: #424242;
-    font-family: Georgia;}
-h3 {
-    color: #003058;}
-dt {
-    color: #003058;
-    font-weight: bold;}
-
-.ut {
-    color: #BA1C21;
-    font-weight: bold;}
+h2 { color: #424242; font-family: Georgia;}
+h3 { color: #003058;}
+dt { color: #003058; font-weight: bold;}
+.ut { color: #BA1C21; font-weight: bold;}
 
 footer {
     font-size: .70rem;
@@ -187,17 +179,10 @@ input, textarea {
     background-color: #fafafa;
     border: none;}
 
-input:focus, textarea:focus {
-    outline: none;
-    background-color: #f0f0f0;}
+input:focus, textarea:focus {outline: none;background-color: #f0f0f0;}
+label {padding: 10px;text-align: right;}
 
-label {
-    padding: 10px;
-    text-align: right;}
-
-#mySubmit {
-    width: 10rem;
-    grid-column: 2 / 3;}
+#mySubmit {width: 10rem; grid-column: 2 / 3;}
 
 table {
     margin: 0 auto;
@@ -205,18 +190,10 @@ table {
     width: 100%;
     border-collapse: collapse;}
 
-td, th {
-    padding: 5px;
-    border: 1px solid #424242;}
-
-td {
-    text-align: center;}
-
-.text {
-    text-align: left;}
-
-tr:nth-of-type(even) {
-    background-color: #F3F3F3;}
+td, th { padding: 5px; border: 1px solid #424242;}
+td { text-align: center;}
+.text { text-align: left;}
+tr:nth-of-type(even) { background-color: #F3F3F3;}
 
 video {
     float: right;
