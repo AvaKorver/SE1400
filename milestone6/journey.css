@@ -51,12 +51,14 @@ body {
 
 .journey-image {
     width: 40%;
+    max-height: 200px; 
 }
 
 .journey-image img {
     width: 100%;
-    border-radius: 15px;
+    height: 200px; 
     object-fit: cover;
+    border-radius: 15px;
 }
 header {
     grid-column: 1 / 9;
