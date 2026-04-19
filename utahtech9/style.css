@@ -160,7 +160,9 @@ video {
   float: none;
   margin: 0;
   width: 100%;
-  height: auto;}}
+  height: auto;}
+#shoppingcart {
+    grid-template-columns: 1fr 1fr; }}
 
 
 @media only screen and (max-width: 600px) {
@@ -175,7 +177,8 @@ nav {
 #studenthero{
   display: none;}
 #facultyhero {
-  display: none;}}
+  display: none;}#shoppingcart {
+    grid-template-columns: 1fr;}}
 
 form {
   display: grid;
@@ -224,3 +227,21 @@ table {
   text-align: left;}
   tr:nth-of-type(even) {
   background-color: #F3F3F3;}
+#shophero {
+  background-image: url(images/shophero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;}
+  
+#shoppingcart {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;}
+
+#shoppingcart img {
+  width: 100%;
+  height: auto;}
+#shoppingcart div {
+  background-color: rgba(255,255,255,0.9);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;}
