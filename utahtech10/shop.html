@@ -6,8 +6,26 @@
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
+  <script>
+function validateForm() {
+     if (document.forms[0].myEmail.value == "" ) {
+          alert("Please enter an e-mail address.");
+          return false;}
+     return true;}
+</script>
 </head>
-<body>
+<body onload="alert('Today only - 10% off on a weekend - coupon code TrailBlazers');">
+<form method="post" onsubmit="return validateForm();" action="https://kearl.net/se1400/mail.php">
+  <label for="myFName">First Name:</label><br>
+  <input type="text" name="myFName" id="myFName"><br><br>
+  <label for="myLName">Last Name:</label><br>
+  <input type="text" name="myLName" id="myLName"><br><br>
+  <label for="myEmail">E-mail:</label><br>
+  <input type="text" name="myEmail" id="myEmail"><br><br>
+  <label for="myComments">Comments:</label><br>
+  <textarea name="myComments" id="myComments"></textarea><br><br>
+  <input type="submit" value="Submit">
+</form>
    <script>
     window.SnipcartSettings = {
         publicApiKey: 'MTA0YmZhOTQtODc3NS00ZGJjLTgzNjAtYzViOGIxZTFkODM3NjM5MTE5NDU0MzQ4MjUzNzUx',
