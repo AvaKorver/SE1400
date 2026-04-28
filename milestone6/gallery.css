@@ -24,7 +24,7 @@ body::before {
     top: 20px;
     left: 0;
     right: 0;
-    height: 120vh;
+    height: 100vh;
     background: url('gallery.cover.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
