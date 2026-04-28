@@ -21,7 +21,7 @@ body::before {
     top: 0;
     left: 0;
     right: 0;
-    height: 120vh;
+    height: 100vh;
     background: url('Painting-Main.jpeg');
     background-size: cover;
     background-position: center;
