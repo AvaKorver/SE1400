@@ -1,4 +1,7 @@
 https://drive.google.com/file/d/1m1n0JhHaydaqH7ZmZxVN0HgstHcEHsiu/view?usp=drive_link
+
+CLICK EDIT READ ME TO SEE ACTUAL:
+
 WEBSITE LAYOUT DICTIONARY (SE 1400 FINAL)
 
 WRAPPER
